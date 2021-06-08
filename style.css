@@ -3,7 +3,16 @@ body{
     display: flex;
     margin: 0;
     min-height: 100vh;
+    position: relative;
 
+}
+.bullegauche
+{
+    
+}
+.bulledroite
+{
+    width: 100px;
 }
 img
 {
@@ -24,12 +33,19 @@ img
 }
 .name
 {
+
     font-family: 'Hind Siliguri', sans-serif;
 }
 span.victor
 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bolder;
+    font-size: 22px;
+}
+.age
+{
+    font-size: 20px;
+    padding-top: 15px;
 }
 svg
 {
@@ -61,10 +77,14 @@ svg
     width: 100%;
     justify-content: center;
     padding-bottom: 25px;
+    margin-top: 20px;
 }
 .titre
 {
+    font-size: 12px;
     text-align: center;
+    color: gray;
+    font-family: 'Noto Sans', sans-serif;
 }
 .number
 {
