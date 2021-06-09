@@ -5,28 +5,37 @@ body{
     min-height: 100vh;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
-.bulledroite
-{
-    width: 100px;
-}
-img
+.victor
 {
     margin: auto;
     border: 5px solid white;
     border-radius: 50px;
 }
+.banniere
+{
+    border-radius: 0px;
+}
 .bullebottom
 {
     position: absolute;
     z-index: 2;
-
+    top: 468px;
+    left: 170px;
+}
+.bulletop
+{
+    position: absolute;
+    right: 55px;
+    bottom: 495px;
 }
 
 .card
 {
     margin: auto;
+    margin-top: 380px;
     z-index: 3;
 }
 .header
