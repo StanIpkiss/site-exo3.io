@@ -4,12 +4,9 @@ body{
     margin: 0;
     min-height: 100vh;
     position: relative;
+    z-index: 1;
+}
 
-}
-.bullegauche
-{
-    
-}
 .bulledroite
 {
     width: 100px;
@@ -20,9 +17,17 @@ img
     border: 5px solid white;
     border-radius: 50px;
 }
+.bullebottom
+{
+    position: absolute;
+    z-index: 2;
+
+}
+
 .card
 {
     margin: auto;
+    z-index: 3;
 }
 .header
 {
